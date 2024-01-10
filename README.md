@@ -1,3 +1,2 @@
 # C_Study
-This repositary contains the perpouse to develop the C and program at all abilities. 
-Here you can se how I personaly lear the basics of syntax and concepts of programming in general, that's why I thonk that C is so important to leran in the start, is easy, fast and opens the peath to more difficult/open languages.
+This repository has the purpose of developing C programming skills at all levels. Here, you can see how I personally learn the basics of syntax and concepts of programming in general. That's why I think that learning C is so important at the beginning; it is easy, fast, and opens the path to more challenging and versatile languages.
