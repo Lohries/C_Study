@@ -19,9 +19,14 @@ void *myThreadFun(void *vargp)
    
 int main() 
 { 
-    pthread_t thread_id; 
+    int j = 0;
+    pthread_t thread_id; //Creating a thread if type pthread_t
     printf("Before Thread\n"); 
     pthread_create(&thread_id, NULL, myThreadFun, NULL); 
+    while (j < 20) {
+      printf("%i\n", j);
+      j+=2;
+     }
     pthread_join(thread_id, NULL); 
     printf("After Thread\n"); 
     exit(0); 
